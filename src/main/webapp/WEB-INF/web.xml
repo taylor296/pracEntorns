@@ -1,0 +1,34 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Say Big Number</display-name>
+    <servlet>
+    <servlet-name>SayNumberService</servlet-name>
+    <servlet-class>net.esliceu.numbers.http.SayNumberService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OperateBigNumberService</servlet-name>
+    <servlet-class>net.esliceu.numbers.http.OperateBigNumberService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SayBigNumberService</servlet-name>
+    <servlet-class>net.esliceu.numbers.http.SayBigNumberService</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>SayNumberService</servlet-name>
+    <url-pattern>/say</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperateBigNumberService</servlet-name>
+    <url-pattern>/operate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SayBigNumberService</servlet-name>
+    <url-pattern>/service</url-pattern>
+  </servlet-mapping>
+</web-app>
+
