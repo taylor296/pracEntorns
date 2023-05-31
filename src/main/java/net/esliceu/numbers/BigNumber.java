@@ -17,7 +17,6 @@ public class BigNumber implements BigNumberOperator {
 
     // Suma
     public String add(BigNumberOperator other) {
-        BigNumber resF = null;
         String s1 = this.valor;
         String s2 = ((BigNumber) other).valor;
         if (s1.length() > s2.length()) {
