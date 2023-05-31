@@ -1,0 +1,52 @@
+# This workflow will build a package using Maven and then publish it to GitHub packages when a release is created
+# For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#apache-maven-with-a-settings-path
+
+name: Maven Package
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+
+    - name: Build with Maven
+      run: mvn clean package
+
+    - name: Analyze with SonarQube
+      env:
+        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        SONAR_LOGIN: ${{ secrets.SONAR_LOGIN }}
+      run: mvn sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_LOGIN
+     
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: SayBigNumber
+        path: target/SayBigNumber.war
+        
+    - name: Deploy to Tomcat
+      uses: appleboy/ssh-action@v0.3.0
+      with:
+        host: ${{ secrets.TOMCAT_HOST }}
+        username: ${{ secrets.TOMCAT_USERNAME }}
+        password: ${{ secrets.TOMCAT_PASSWORD }}
+        script: |
+          cd /path/to/tomcat/webapps
+          rm -rf ROOT.war ROOT
+          mv /path/to/your/war/target/SayBigNumber.war ROOT.war
