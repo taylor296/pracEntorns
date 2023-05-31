@@ -17,7 +17,8 @@ public class SayBigNumberFactory {
     }
 
     public Numbers getNumbers() {
-        return numbers;
+    return null;
+       // return numbers;
     }
 
     public String operate(String operation, String first, String second) throws NumbersException {
