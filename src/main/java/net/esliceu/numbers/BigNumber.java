@@ -78,7 +78,6 @@ public class BigNumber implements BigNumberOperator {
     public String subtract(BigNumberOperator other) {
         int resultadoResta = 0;
         StringBuilder juntar = new StringBuilder();
-        BigNumber resF = null;
         String s1 = this.valor;
         String s2 = ((BigNumber) other).valor;
         if (s1.length() > s2.length()) {
