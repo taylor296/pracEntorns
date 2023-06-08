@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pracEntorns:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pracEntorns_jar</output-path>
+    <root id="archive" name="pracEntorns.jar">
+      <element id="module-output" name="pracEntorns" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
