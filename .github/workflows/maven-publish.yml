@@ -49,4 +49,4 @@ jobs:
         script: |
           cd /path/to/tomcat/webapps
           rm -rf ROOT.war ROOT
-          mv /path/to/your/war/target/SayBigNumber.war ROOT.war
+          mv /home/superior/IdeaProjects/practicaEntorns1/src/SayBigNumberService/src/main/java/net/esliceu/numbers/SayBigNumberFactory.java .war ROOT.war
