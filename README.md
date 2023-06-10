@@ -33,3 +33,5 @@ Hola soy Alex, por alguna razon la grabacion da problemas de audio, por lo qeu s
 vamos a enseñar como podemos hacer commits y pulls todos desde el mismo repositorio
 
 Hola soy Taylor y le paso el commit a José.
+
+Hola, soy jose y este es mi commit.
