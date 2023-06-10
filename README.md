@@ -3,7 +3,7 @@ El primer que vam fer va ser instalar tots el tomcat y poder aixi desplegar l'ap
 Un cop varem tenir això varem adaptar els nostres **NumbersCat** y el nostre **BigNumbers** al arxiu compartit pel professor.
 Amb aquesta implemntació sorgiren molts d'errors, primer de tot varem modificar el nostre *BigNumbers*.
 El primer canvi va ser quitar tots els *statics* de les diferents clases y funcions i juntament fer un implement de les noves interficies, és a dir
-amb l'arxiu compartit varem tenir les noves interficies anomenades "*Numbers*" i "***BigNumberOperator***", per a 
+amb l'arxiu compartit varem tenir les noves interficies anomenades "***Numbers***" i "***BigNumberOperator***", per a 
 *NumbersCat* i *BigNumber* respectivament, obviament. Després el nou metode de resta de bignumbers s'anomenava subtract,
 a diferencia del que teniem previament per tant varem canvar el nombre. Tant la suma com la resta retornaven BigNumbers
 pero ara retornaven String, per tant varem fer una petita modificació als dos metodes i varem modificar els test
@@ -28,3 +28,6 @@ Els primers es varen encarrgar de crear els següents diagrames:
 Mentre que els segons varen fer:
 1. Diagrama de fluxe
 2. Diagrama de clases
+
+Hola soy Alex, hemos grabado el video unas cuantas veces pero da probelmas de que no graba el audio, por lo que sencillamente vamos a 
+enseñar como podemos hacer commits todos desde el readme.
