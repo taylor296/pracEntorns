@@ -1,17 +1,17 @@
 # pracEntorns
 El primer que vam fer va ser instalar tots el tomcat y poder aixi desplegar l'aplicació. 
 Un cop varem tenir això varem adaptar els nostres **NumbersCat** y el nostre **BigNumbers** al arxiu compartit pel professor.
-Amb aquesta implemntació sorgiren molts d'errors, primer de tot varem modificar el nostre BigNumbers.
-El primer canvi va ser quitar tots els statics i juntament fer un implement de les noves interficies, és a dir
-amb l'arxiu compartit varem tenir les noves interficies anomenades "Numbers" i "BigNumberOperator", per a 
-NumbersCat i BigNumber respectivament, obviament. Després el nove metode de resta de bignumbers s'anomenava subtract,
-a diferencia del que teniem previament per tant varem canvar el nombre. Tant la suma com la resta devolvien BigNumbers
-pero ara retornaven String, per tant varem fer una petita modificacio als dos metodes i varem modificar els test
-per tal de que ara cridariem al say de aquestes noves interficies y esperariem un String de retorn.
-Amb els numberscat els tests vaser una mica diferent ja que varem haver de crear un petit setup per tal de cridar
+Amb aquesta implemntació sorgiren molts d'errors, primer de tot varem modificar el nostre *BigNumbers*.
+El primer canvi va ser quitar tots els *statics* de les diferents clases y funcions i juntament fer un implement de les noves interficies, és a dir
+amb l'arxiu compartit varem tenir les noves interficies anomenades "*Numbers*" i "***BigNumberOperator***", per a 
+*NumbersCat* i *BigNumber* respectivament, obviament. Després el nou metode de resta de bignumbers s'anomenava subtract,
+a diferencia del que teniem previament per tant varem canvar el nombre. Tant la suma com la resta retornaven BigNumbers
+pero ara retornaven String, per tant varem fer una petita modificació als dos metodes i varem modificar els test
+per tal de que ara cridariem al say d'aquestes noves interficies y esperariem un String de retorn.
+Amb els numberscat els tests vaser una mica diferent ja que varem haver de crear un petit *setup* per tal de cridar
 les funcions. Un cop varem fer tot això ja teniem el codi funcionant i passant tots els test.
 
-Referent a les piramedes de test trobam tant en els test de bignumbers i de numberscat que es van pujant per cifres, 
+Referent a les piràmedes de test trobam tant en els test de bignumbers i de numberscat que es van pujant per cifres, 
 és a dir primer es treballa mab numeros d1 xifra, després de 2, de 3, 4 ,5...
 Amb això aconseguir diferenciar les diferents situacions i per tant treballar els numeros més grans amb la 
 seguretat de que els numeros per devall d'aquests funcionen i en el cas de per exemple els numbers cat a l'hora de
@@ -28,5 +28,3 @@ Els primers es varen encarrgar de crear els següents diagrames:
 Mentre que els segons varen fer:
 1. Diagrama de fluxe
 2. Diagrama de clases
-
-prueba8junio
