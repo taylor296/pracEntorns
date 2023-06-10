@@ -31,3 +31,6 @@ Mentre que els segons varen fer:
 
 Hola soy Alex, hemos grabado el video unas cuantas veces pero da probelmas de que no graba el audio, por lo que sencillamente vamos a 
 enseñar como podemos hacer commits todos desde el readme.
+
+
+Hola soy jose, y le paso el commit a Aaron
