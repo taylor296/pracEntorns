@@ -34,3 +34,5 @@ enseñar como podemos hacer commits todos desde el readme.
 
 
 Hola soy jose, y le paso el commit a Aaron
+
+Hola, soy aaron y para demostrar mi commit escribo esto
