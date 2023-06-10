@@ -29,10 +29,3 @@ Mentre que els segons varen fer:
 1. Diagrama de fluxe
 2. Diagrama de clases
 
-Hola soy Alex, hemos grabado el video unas cuantas veces pero da probelmas de que no graba el audio, por lo que sencillamente vamos a 
-enseñar como podemos hacer commits todos desde el readme.
-
-
-Hola soy jose, y le paso el commit a Aaron
-
-Hola, soy aaron y para demostrar mi commit escribo esto
