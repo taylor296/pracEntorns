@@ -31,3 +31,5 @@ Mentre que els segons varen fer:
 
 Hola soy Alex, por alguna razon la grabacion da problemas de audio, por lo qeu simplemente
 vamos a enseñar como podemos hacer commits y pulls todos desde el mismo repositorio
+
+Hola soy Taylor y le paso el commit a José.
