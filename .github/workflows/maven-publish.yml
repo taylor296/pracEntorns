@@ -41,7 +41,7 @@ jobs:
         path: target/SayBigNumber.war
         
     - name: Deploy to Tomcat
-      uses: appleboy/ssh-action@v2.2
+      uses: appleboy/ssh-action@v0.1.10
       with:
         host: ${{ secrets.TOMCAT_HOST }}
         username: ${{ secrets.TOMCAT_USERNAME }}
