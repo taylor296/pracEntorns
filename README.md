@@ -17,7 +17,8 @@ Amb això aconseguim diferenciar les diferents situacions i per tant treballar e
 seguretat de que els numeros per devall d'aquests funcionen i en el cas de per exemple els numbers cat a l'hora de
 cercar el valor de la unitat de la decima, centena, milar, etc podem confiar en el valor de les unitats dels primers tests,
 és a dir, si troban un tres mil ja sabem que aquest "tres" podem accedir-lo amb la total confiança del seu funcionament individual
-gracies als primers tests de la piramide.
+gracies als primers tests de la piramide. Aquest funcionament serveix igual per al nou codi ja que aquest es una 
+combinació dels dos previament nombrats.
 
 Per als **diagrames UML** varem fer dos "grups", per una banda **José i Aron** i per l'altra **Alex i Taylor**.
 Els primers es varen encarrgar de crear els següents diagrames:
