@@ -30,4 +30,7 @@ Mentre que els segons varen fer:
 1. Diagrama de fluxe
 2. Diagrama de clases
 
-intento arreglo
+Finalment ens varem disposar a crear el *pipeline* per al nostre repositori. Al principi va ser molt dificil pero 
+al final aconseguirem fer que el **Sonarqube** ens analitzi el codi tras cada commit, el que després tratarem de
+fer va ser el desplegament a *Tomcat* a través del mvn clean, pero aizò donava error. Primer per la versió, ja que
+utilitzavem una antiga pero la varem canviar i després simplement no ho feia.
