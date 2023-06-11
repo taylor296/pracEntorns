@@ -11,9 +11,9 @@ per tal de que ara cridariem al say d'aquestes noves interficies y esperariem un
 Amb els numberscat els tests vaser una mica diferent ja que varem haver de crear un petit *setup* per tal de cridar
 les funcions. Un cop varem fer tot això ja teniem el codi funcionant i passant tots els test.
 
-Referent a les piràmedes de test trobam tant en els test de bignumbers i de numberscat que es van pujant per cifres, 
-és a dir primer es treballa mab numeros d1 xifra, després de 2, de 3, 4 ,5...
-Amb això aconseguir diferenciar les diferents situacions i per tant treballar els numeros més grans amb la 
+Referent a les piràmedes de test trobam tant en els test de *bignumbers* i de *numberscat* que es van pujant per cifres, 
+és a dir primer es treballa mab numeros d'1 xifra, després de 2, de 3, 4 ,5...
+Amb això aconseguim diferenciar les diferents situacions i per tant treballar els numeros més grans amb la 
 seguretat de que els numeros per devall d'aquests funcionen i en el cas de per exemple els numbers cat a l'hora de
 cercar el valor de la unitat de la decima, centena, milar, etc podem confiar en el valor de les unitats dels primers tests,
 és a dir, si troban un tres mil ja sabem que aquest "tres" podem accedir-lo amb la total confiança del seu funcionament individual
@@ -28,4 +28,3 @@ Els primers es varen encarrgar de crear els següents diagrames:
 Mentre que els segons varen fer:
 1. Diagrama de fluxe
 2. Diagrama de clases
-
