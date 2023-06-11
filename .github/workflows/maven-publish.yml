@@ -41,12 +41,12 @@ jobs:
         path: target/SayBigNumber.war
         
     - name: Deploy to Tomcat
-      uses: appleboy/ssh-action@v0.3.0
+      uses: appleboy/ssh-action@v2.2
       with:
         host: ${{ secrets.TOMCAT_HOST }}
         username: ${{ secrets.TOMCAT_USERNAME }}
         password: ${{ secrets.TOMCAT_PASSWORD }}
         script: |
-          cd /path/to/tomcat/webapps
+          cd /home/superior/Documents/apache-tomcat-9.0.75/webapps
           rm -rf ROOT.war ROOT
           mv /home/superior/IdeaProjects/practicaEntorns1/src/SayBigNumberService/src/main/java/net/esliceu/numbers/SayBigNumberFactory.java .war ROOT.war
