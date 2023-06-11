@@ -30,4 +30,4 @@ Mentre que els segons varen fer:
 1. Diagrama de fluxe
 2. Diagrama de clases
 
-prueba v0.1.10
+v0.1.10
