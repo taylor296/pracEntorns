@@ -26,8 +26,13 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Maven
-      run: mvn clean package
-
+      run: mvn clean install
+      
+      
+  sonar:   
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
     - name: Analyze with SonarQube
       env:
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
