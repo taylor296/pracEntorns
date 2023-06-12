@@ -121,6 +121,10 @@ public class BigNumber implements BigNumberOperator {
     }
 
     private String quitarUn(String s) {
+        int num = Integer.parseInt(s);
+        num = num - 1;
+        return String.valueOf(num);
+        /*
         switch (s) {
             case "1" -> s = "0";
             case "2" -> s = "1";
@@ -133,6 +137,8 @@ public class BigNumber implements BigNumberOperator {
             case "9" -> s = "8";
         }
         return s;
+
+         */
     }
 
     // EJ: te paso "123" y '2'
