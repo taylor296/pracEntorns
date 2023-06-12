@@ -28,13 +28,6 @@ jobs:
     - name: Build with Maven
       run: mvn clean package
       
-
-    - name: Analyze with SonarQube
-      env:
-        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        SONAR_LOGIN: ${{ secrets.SONAR_LOGIN }}
-      run: mvn sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_LOGIN
-     
     - name: Upload artifact
       uses: actions/upload-artifact@v3
       with:
