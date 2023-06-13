@@ -12,7 +12,7 @@ Amb els numberscat els tests vaser una mica diferent ja que varem haver de crear
 les funcions. Un cop varem fer tot això ja teniem el codi funcionant i passant tots els test.
 
 Referent a les piràmedes de test trobam tant en els test de *bignumbers* i de *numberscat* que es van pujant per cifres, 
-és a dir primer es treballa mab numeros d'1 xifra, després de 2, de 3, 4 ,5...
+és a dir primer es treballa amb numeros d'1 xifra, després de 2, de 3, 4 ,5...
 Amb això aconseguim diferenciar les diferents situacions i per tant treballar els numeros més grans amb la 
 seguretat de que els numeros per devall d'aquests funcionen i en el cas de per exemple els numbers cat a l'hora de
 cercar el valor de la unitat de la decima, centena, milar, etc podem confiar en el valor de les unitats dels primers tests,
