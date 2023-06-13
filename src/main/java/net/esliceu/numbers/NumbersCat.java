@@ -274,9 +274,6 @@ public class NumbersCat implements Numbers {
 
 
 
-
-
-
         n = inferiorMil(s, n);
         n = inferior100(s, n);
         if (s.length() == 1) {
