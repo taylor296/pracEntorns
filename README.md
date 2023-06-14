@@ -19,7 +19,7 @@ cercar el valor de la unitat de la decima, centena, milar, etc podem confiar en 
 és a dir, si troban un tres mil ja sabem que aquest "tres" podem accedir-lo amb la total confiança del seu funcionament individual
 gracies als primers tests de la piramide.
 
-Per als **diagrames UML** varem fer dos "grups", per una banda **José i Aron** i per l'altra **Alex i Taylor**.
+Per als **diagrames UML** varem fer dos "grups", per una banda **José i Aaron** i per l'altra **Alex i Taylor**.
 Els primers es varen encarrgar de crear els següents diagrames:
 1. Diagram de comunicació
 2. Use case
