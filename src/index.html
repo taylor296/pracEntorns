@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>pracEntorns</h1>
+<p>El primer que varem fer va ser instal·lar tots el tomcat i poder així iniciar l'aplicació.</p>
+<p>Un cop varem tenir això varem adaptar els nostres <strong>NumbersCat</strong> i el nostre <strong>BigNumbers</strong> al arxiu compartit pel professor.</p>
+<p>Amb aquesta implemntació sorgiren molts d'errors, primer de tot varem modificar el nostre <em>BigNumbers</em>.</p>
+<p>El primer canvi va ser eliminar tots els <em>statics</em> de les diferents clases i funcions i juntament fer un implement de les noves interficies, és a dir amb l'arxiu compartit varem tenir les noves interficies anomenades "<em>Numbers</em>" i "<em>BigNumberOperator</em>", per a <em>NumbersCat</em> i <em>BigNumber</em> respectivament. Després, el nou metode de resta de bignumbers s'anomenava subtract, a diferencia del que teniem previament per tant varem canvar el nombre. Tant la suma com la resta retornaven BigNumbers pero ara retornaven String, per tant varem fer una petita modificació als dos metodes i varem modificar els test per tal de que ara cridariem al say d'aquestes noves interficies i esperariem un String de retorn.</p>
+<p>Amb els numberscat els tests varem ser una mica diferent ja que varem haver de crear un petit <em>setup</em> per tal de cridar les funcions. Un cop varem fer tot això ja teniem el codi funcionant i passant tots els unit test.</p>
+<p>Referent a les piràmedes de test trobam tant en els test de bignumbers i de numberscat que es van pujant per cifres, és a dir, primer es treballa amb numeros d'1 xifra, després de 2, de 3, 4 ,5...</p>
+<p>Amb això aconseguim diferenciar les diferents situacions i per tant treballar els numeros més grans amb la seguretat de que els numeros per devall d'aquests funcionen i en el cas de per exemple els numbers cat a l'hora de cercar el valor de la unitat de la decima, centena, milar, etc podem confiar en el valor de les unitats dels primers tests, és a dir, si troban un tres mil ja sabem que aquest "tres" podem accedir-lo amb la total confiança del seu funcionament individual gracies als primers tests de la piramide.</p>
+<p>Per als <strong>diagrames UML</strong> varem fer dos "grups", per una banda <strong>José i Aron</strong> i per l'altra <strong>Alex i Taylor</strong>.</p>
+<p>Els primers es varen encarrgar de crear els següents diagrames:</p>
+<ol>
+    <li>Diagram de comunicació</li>
+    <li>Use case</li>
+    <li>Seqüencia</li>
+</ol>
+<p>Mentre que els segons varen fer:</p>
+<ol>
+    <li>Diagrama de fluxe</li>
+    <li>Diagrama de clases</li>
+</ol>
+<p>Finalment varem tractar de crear el <em>pipleine</em> per tal de que amb cada commit y push aquest faci les següents accions:</p>
+<ol>
+    <li>Crear un package amb maven</li>
+    <li>Superar els unit tests</li>
+    <li>Comprovar el codi amb SonqrQube</li>
+    <li>Fer el deploy a Tomcat</li>
+    <li>Superar tests de api i e2e</li>
+</ol>
+<p>Durant la creació sorgiren molts de problemas i no varem poder completar totes les pases.</p>
+
+</body>
+</html>
